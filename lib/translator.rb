@@ -23,5 +23,6 @@ def get_english_meaning(file, emoticon)
   emote_lib.each do |emote|
     if emote[1][:japanese] == emoticon
       p emote
+    end
   end
 end
