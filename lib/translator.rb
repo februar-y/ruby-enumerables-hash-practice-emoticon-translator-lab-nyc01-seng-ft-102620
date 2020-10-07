@@ -26,5 +26,9 @@ def get_english_meaning(file, emoticon)
       eng_meaning = emote[0]
     end
   end
-  p eng_meaning
+  if eng_meaning == nil
+    "Sorry, that emoticon was not found"
+  else
+    eng_meaning
+  end
 end
