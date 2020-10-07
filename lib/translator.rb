@@ -22,7 +22,8 @@ def get_english_meaning(file, emoticon)
   emote_lib = load_library(file)
   emote_lib.each do |emote|
     if emote[1][:japanese] == emoticon
-      return emote[0]
+      puts emote[0]
     end
   end
+  
 end
