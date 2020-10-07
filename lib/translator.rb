@@ -15,11 +15,10 @@ def load_library(file)
 end
 
 def get_japanese_emoticon(file, emoticon)
-  emote_lib = load_library(file)
-  p emote_lib[emoticon.to_sym]
+  
 end
 
 def get_english_meaning(file, emoticon)
   emote_lib = load_library(file)
-  emote_lib
+  p emote_lib[]
 end
