@@ -20,5 +20,6 @@ end
 
 def get_english_meaning(file, emoticon)
   emote_lib = load_library(file)
-  p emote_lib[]
+  emote_lib.each do |meaning|
+    p meaning
 end
