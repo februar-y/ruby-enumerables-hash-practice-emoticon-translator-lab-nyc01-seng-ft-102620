@@ -25,7 +25,6 @@ def get_english_meaning(file, emoticon)
     if emote[1][:japanese] == emoticon
       eng_meaning = emote[0]
     end
-  p eng_meaning
   end
-  
+  p eng_meaning
 end
