@@ -20,9 +20,10 @@ end
 
 def get_english_meaning(file, emoticon)
   emote_lib = load_library(file)
+  eng_meaning = nil
   emote_lib.each do |emote|
     if emote[1][:japanese] == emoticon
-      puts emote[0]
+      eng_meaning = emote[0]
     end
   end
   
