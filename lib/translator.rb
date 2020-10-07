@@ -11,6 +11,7 @@ def load_library(file)
       :japanese => emote[1][1]
     }
   end
+  p emote_hash
 end
 
 def get_japanese_emoticon
