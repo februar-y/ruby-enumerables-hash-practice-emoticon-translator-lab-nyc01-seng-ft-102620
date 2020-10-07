@@ -26,5 +26,5 @@ def get_english_meaning(file, emoticon)
       eng_meaning = emote[0]
     end
   end
-  
+  eng_meaning
 end
